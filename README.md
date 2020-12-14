@@ -33,20 +33,22 @@ predictgen.py
 
 If you're skipping the training, run the following from "test" folder on your command prompt:
 
->> python search_test.py config-test.toml <Option>
+python search_test.py config-test.toml <Option>
   
 where 'Option' can take any integer value between 0 and 5. Please refer the documentation to know more about each choice. 
 For example: >> python search_test.py config-test.toml 0
 
 And then run,
->> python predictgen.py
+
+python predictgen.py
 
 The above code must be executed to obtain the final predictions in a text file. If you chose Option 0 you would obtain "prediction0.txt" as your final predictions for all the queries capping at 1000 top documents per query.
 
 If you want use the training phase:
 
 From "train" folder, run
->> python search_eval.py config.toml <Option>
+
+python search_eval.py config.toml <Option>
 
 where <Option> has the same range as described above. You'll obtain a text file "Option0.txt" (if you chose Option 0). Please copy this file over to the "test" folder and repeat the instructions above to obtain final predictions. 
   
