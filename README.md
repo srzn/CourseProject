@@ -7,7 +7,7 @@ progressreport.pdf is Project Progress Report as of 11/29/2020 9:00 PM ET
 
 All the software content is in the file Code.zip. When you uncompress Code.zip you'll have two folders - train and test. Please do not delete any file. Important files are illustrated below 
 
-train
+---train---
 
 queryextr.py
 
@@ -17,12 +17,16 @@ convert-dat1.py
 
 search-eval.py
 
-test
--queryextr.py
--uidmap.py
--convert-dat1.py
--search_test.py
--predictgen.py
+---test---
+queryextr.py
+
+uidmap.py
+
+convert-dat1.py
+
+search_test.py
+
+predictgen.py
 
 ====Usage===
 
