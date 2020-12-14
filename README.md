@@ -33,7 +33,7 @@ predictgen.py
 
 If you're skipping the training, run the following from "test" folder on your command prompt:
 
-python search_test.py config-test.toml <Option>
+python search_test.py config-test.toml 'Option'
   
 where 'Option' can take any integer value between 0 and 5. Please refer the documentation to know more about each choice. 
 For example: >> python search_test.py config-test.toml 0
