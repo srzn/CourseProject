@@ -5,7 +5,11 @@ Project Proposal.pdf is the Project Proposal Document
 progressreport.pdf is Project Progress Report as of 11/29/2020 9:00 PM ET
 ==========For running the code=================
 
-All the software content is in the file Code.zip. When you uncompress Code.zip you'll have two folders - train and test. Please do not delete any file. Important files are illustrated below 
+All the software content is in the file Code.zip. The link to the same is https://drive.google.com/file/d/1Xep48h-O4VUR2WZna2LtugpVpYauIyWU/view?usp=sharing
+
+*Due to GitHub restrictions, I was unable to upload the zip file directly here. Please use the link above to get the file. Thanks!*
+
+When you uncompress Code.zip you'll have two folders - train and test. Please do not delete any file. Important files are illustrated below 
 
 ---train---
 
