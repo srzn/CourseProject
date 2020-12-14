@@ -45,7 +45,7 @@ The above code must be executed to obtain the final predictions in a text file. 
 
 If you want use the training phase:
 
-Run
+From "train" folder, run
 >> python search_eval.py config.toml <Option>
 
 where <Option> has the same range as described above. You'll obtain a text file "Option0.txt" (if you chose Option 0). Please copy this file over to the "test" folder and repeat the instructions above to obtain final predictions. 
