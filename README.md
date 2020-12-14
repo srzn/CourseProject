@@ -18,6 +18,7 @@ convert-dat1.py
 search-eval.py
 
 ---test---
+
 queryextr.py
 
 uidmap.py
@@ -43,3 +44,10 @@ And then run,
 The above code must be executed to obtain the final predictions in a text file. If you chose Option 0 you would obtain "prediction0.txt" as your final predictions for all the queries capping at 1000 top documents per query.
 
 If you want use the training phase:
+
+Run
+>> python search_eval.py config.toml <Option>
+
+where <Option> has the same range as described above. You'll obtain a text file "Option0.txt" (if you chose Option 0). Please copy this file over to the "test" folder and repeat the instructions above to obtain final predictions. 
+  
+---End
